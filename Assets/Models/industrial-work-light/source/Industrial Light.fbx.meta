@@ -3,7 +3,17 @@ guid: 937e5e15fdc912d46844d7be48ef3381
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Industrial Light
+    second: {fileID: 2100000, guid: c76b133f3af49514aab786e4bf3b3cf3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Industrial Light Transparent
+    second: {fileID: 2100000, guid: b418998297e58d9469a413875893510f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
