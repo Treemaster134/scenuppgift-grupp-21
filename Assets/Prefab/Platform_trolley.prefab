@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 57170431860537961}
   - component: {fileID: 955143234585411603}
+  - component: {fileID: 722474520024700122}
+  - component: {fileID: 1899988266178268196}
   m_Layer: 0
   m_Name: Platform_trolley
   m_TagString: Untagged
@@ -62,6 +64,48 @@ LODGroup:
     renderers:
     - renderer: {fileID: 9080895380473452119}
   m_Enabled: 1
+--- !u!65 &722474520024700122
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756435000027566996}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.21443415, z: 1.2058783}
+  m_Center: {x: 0, y: -0.39278293, z: 0.040451914}
+--- !u!65 &1899988266178268196
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756435000027566996}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.7980205, y: 1.0649363, z: 0.14139497}
+  m_Center: {x: -0.004010096, y: 0.0324682, z: -0.5992809}
 --- !u!1001 &2262453564375019417
 PrefabInstance:
   m_ObjectHideFlags: 0

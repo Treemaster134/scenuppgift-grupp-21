@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 57170431860537961}
   - component: {fileID: 955143234585411603}
+  - component: {fileID: 2757603178669231731}
   m_Layer: 0
   m_Name: Work_Light
   m_TagString: Untagged
@@ -62,6 +63,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 4489877658076917206}
   m_Enabled: 1
+--- !u!65 &2757603178669231731
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756435000027566996}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.55, y: 1.6210803, z: 0.24546812}
+  m_Center: {x: 0, y: 0.31054014, z: 0.028083153}
 --- !u!1001 &936058585877063192
 PrefabInstance:
   m_ObjectHideFlags: 0

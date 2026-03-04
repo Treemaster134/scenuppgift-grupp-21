@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 57170431860537961}
   - component: {fileID: 955143234585411603}
+  - component: {fileID: 3664809512758776682}
   m_Layer: 0
   m_Name: Dolly
   m_TagString: Untagged
@@ -62,6 +63,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 4591881483306376037}
   m_Enabled: 1
+--- !u!65 &3664809512758776682
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756435000027566996}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.44600695, y: 1.0597005, z: 0.120355085}
+  m_Center: {x: -0.025801659, y: 0.029850423, z: -0.0076176003}
 --- !u!1001 &1979031094700615087
 PrefabInstance:
   m_ObjectHideFlags: 0
