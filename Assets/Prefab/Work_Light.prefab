@@ -132,6 +132,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d9574fd3ce316024c979a90ebea8cea4, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d9574fd3ce316024c979a90ebea8cea4, type: 3}
       propertyPath: m_Name
       value: Folding_Table_LOD1
@@ -203,6 +207,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: bd04e8a0e19bfd2499e0c892ada470b0, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: bd04e8a0e19bfd2499e0c892ada470b0, type: 3}
       propertyPath: m_Name
       value: Folding_Table_LOD2
@@ -269,6 +277,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: a8fd0c2c0bc787f43ad85d6e90e65eb3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a8fd0c2c0bc787f43ad85d6e90e65eb3, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a8fd0c2c0bc787f43ad85d6e90e65eb3, type: 3}
       propertyPath: m_Name

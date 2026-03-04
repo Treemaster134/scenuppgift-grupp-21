@@ -110,6 +110,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b14f7762a1616c14ba912143ae157c67, type: 3}
+      propertyPath: m_RenderingLayerMask
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b14f7762a1616c14ba912143ae157c67, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b14f7762a1616c14ba912143ae157c67, type: 3}
       propertyPath: m_Name
       value: Wooden_Crate_LOD1
@@ -181,6 +189,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d5dddf2cda838084ea5522dc9cf510ee, type: 3}
+      propertyPath: m_RenderingLayerMask
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d5dddf2cda838084ea5522dc9cf510ee, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d5dddf2cda838084ea5522dc9cf510ee, type: 3}
       propertyPath: m_Name
       value: Wooden_Crate_LOD2
@@ -247,6 +263,14 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 9f91db9d09b3afa4a91d9e9b022b30fb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9f91db9d09b3afa4a91d9e9b022b30fb, type: 3}
+      propertyPath: m_RenderingLayerMask
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9f91db9d09b3afa4a91d9e9b022b30fb, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9f91db9d09b3afa4a91d9e9b022b30fb, type: 3}
       propertyPath: m_Name

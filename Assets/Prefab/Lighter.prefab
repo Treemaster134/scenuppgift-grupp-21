@@ -118,6 +118,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lighter_LOD0
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d8f297a56e55fb14b8630d712522a7a2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -189,6 +193,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lighter_LOD2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df8c9bf2f9548ff45b29feec6cb44cba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -259,6 +267,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dafe7be6e0c00df4abee8b44b08b7039, type: 3}
       propertyPath: m_Name
       value: Lighter_LOD1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dafe7be6e0c00df4abee8b44b08b7039, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

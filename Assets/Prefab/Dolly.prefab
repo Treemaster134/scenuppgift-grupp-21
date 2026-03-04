@@ -132,6 +132,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f9c34f987a3231341a6971d0ed354d81, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f9c34f987a3231341a6971d0ed354d81, type: 3}
       propertyPath: m_Name
       value: Dolly_LOD1
@@ -199,6 +203,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 11c4ffdb08e0d0a4bb1533067df7348b, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 11c4ffdb08e0d0a4bb1533067df7348b, type: 3}
       propertyPath: m_Name
       value: Dolly_LOD2
@@ -265,6 +273,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 2291289cc5293a049b334208f67fd64a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 2291289cc5293a049b334208f67fd64a, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2291289cc5293a049b334208f67fd64a, type: 3}
       propertyPath: m_Name
