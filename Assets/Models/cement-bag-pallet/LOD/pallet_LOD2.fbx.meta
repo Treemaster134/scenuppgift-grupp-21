@@ -12,7 +12,17 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Cement.002
+    second: {fileID: 2100000, guid: 114ccbde8c9bbb94b841d73a809cd56b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Pallet
+    second: {fileID: 2100000, guid: 76cbefce62528af4a9baf24f515e9001, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pallet.002
     second: {fileID: 2100000, guid: 76cbefce62528af4a9baf24f515e9001, type: 2}
   materials:
     materialImportMode: 2

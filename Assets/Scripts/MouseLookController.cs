@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Splines;
 
 public class MouseLookController : MonoBehaviour
 {
@@ -12,29 +13,38 @@ public class MouseLookController : MonoBehaviour
 
     [SerializeField, Range(0, 180)]
     private float verticalAngle = 160;
+    private SplineAnimate spline;
     
     void Start()
     {
         head = GetComponentInChildren<Camera>().transform;
         body = transform;
         lookAction = InputSystem.actions.FindAction("Look");
+        spline = GetComponent<SplineAnimate>();
     }
 
     void Update()
     {
-        Vector2 look = lookAction.ReadValue<Vector2>() * 0.1f;
-        float hor = look.x;
-        float ver = look.y;
+        if (!spline.IsPlaying)
+        {
+            Vector2 look = lookAction.ReadValue<Vector2>() * 0.1f;
+            float hor = look.x;
+            float ver = look.y;
 
-        if (Mathf.Abs(hor) > float.Epsilon) {
-            body.Rotate(Vector3.up, hor * mouseSpeed);
+            if (Mathf.Abs(hor) > float.Epsilon) {
+                body.Rotate(Vector3.up, hor * mouseSpeed);
+            }
+
+            if (Mathf.Abs(ver) > float.Epsilon) {
+                Quaternion rot = head.localRotation;
+                Quaternion aim = Quaternion.AngleAxis(-0.5f * verticalAngle * Mathf.Sign(ver), Vector3.right);
+                Quaternion delta = Quaternion.RotateTowards(rot, aim, Mathf.Sign(ver) * ver * mouseSpeed);
+                head.localRotation = delta;
+            }
         }
-
-        if (Mathf.Abs(ver) > float.Epsilon) {
-            Quaternion rot = head.localRotation;
-            Quaternion aim = Quaternion.AngleAxis(-0.5f * verticalAngle * Mathf.Sign(ver), Vector3.right);
-            Quaternion delta = Quaternion.RotateTowards(rot, aim, Mathf.Sign(ver) * ver * mouseSpeed);
-            head.localRotation = delta;
+        else
+        {
+            head.localRotation = Quaternion.identity;
         }
     }
 }
