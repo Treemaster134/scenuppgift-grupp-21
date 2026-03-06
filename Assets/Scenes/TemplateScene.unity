@@ -14747,8 +14747,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1522075678}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0.4957314, z: -0, w: 0.8684759}
-  m_LocalPosition: {x: 19.051975, y: 1.36, z: 3.6959734}
+  m_LocalRotation: {x: 0, y: 0.07713843, z: 0, w: 0.9970204}
+  m_LocalPosition: {x: 20.165276, y: 1.2, z: 0.098682284}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14782,9 +14782,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 16
-  jumpHeight: 1
-  gravityConstant: 9
-  ceilingBounce: 0.5
+  jumpHeight: 0
+  gravityConstant: 100
+  ceilingBounce: 0
 --- !u!143 &1522075682
 CharacterController:
   m_ObjectHideFlags: 0
@@ -15785,6 +15785,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 56fc252d3494ee2469e54655a1e45316, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1584846604}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 56fc252d3494ee2469e54655a1e45316, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1584846608}
   m_SourcePrefab: {fileID: 100100000, guid: 56fc252d3494ee2469e54655a1e45316, type: 3}
 --- !u!4 &1584846602 stripped
 Transform:
@@ -15884,6 +15887,20 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+--- !u!114 &1584846608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584846603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 386ebd82b8b9efe48bdde6733f214362, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1522075679}
+  maxDistance: 15
 --- !u!4 &1586321886 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7798495240793789168, guid: 4997135c2e66c164d90fef9b82a0a2f9, type: 3}
@@ -19520,7 +19537,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 955143234585411603, guid: 1101e3b8859a3974081b6c9b86885230, type: 3}
       propertyPath: m_LODs.Array.data[2].screenRelativeHeight
-      value: 0.17
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 1173698194675668631, guid: 1101e3b8859a3974081b6c9b86885230, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -20220,6 +20237,7 @@ GameObject:
   - component: {fileID: 2131249069}
   - component: {fileID: 2131249071}
   - component: {fileID: 2131249070}
+  - component: {fileID: 2131249072}
   m_Layer: 0
   m_Name: Spot Light
   m_TagString: Untagged
@@ -20330,6 +20348,20 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+--- !u!114 &2131249072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131249068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 386ebd82b8b9efe48bdde6733f214362, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1522075679}
+  maxDistance: 15
 --- !u!1 &2134196294
 GameObject:
   m_ObjectHideFlags: 0
