@@ -5,29 +5,24 @@ using UnityEngine.Splines;
 public class CameraTrailFollower : MonoBehaviour
 {
     private SplineAnimate spline;
-    private InputAction splineAction;
     private bool holdingSpline = false;
+    [SerializeField] private bool followSpline = false;
 
     void Start()
     {
-        splineAction = InputSystem.actions.FindAction("Spline");
         spline = GetComponent<SplineAnimate>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (splineAction.IsPressed())
+        if (followSpline)
         {
             if (!holdingSpline)
             {
                 if (!spline.IsPlaying)
                 {
                     spline.Restart(true);
-                }
-                else
-                {
-                    spline.Pause();
                 }
             }
             
@@ -36,6 +31,7 @@ public class CameraTrailFollower : MonoBehaviour
         else
         {
             holdingSpline = false;
+            spline.Pause();
         }
     }
 }
